@@ -1,0 +1,56 @@
+[debug] [2018-09-25T18:30:30.806Z] ----------------------------------------------------------------------
+[debug] [2018-09-25T18:30:30.809Z] Command:       /home/tanmay/.nvm/versions/node/v8.9.2/bin/node /home/tanmay/.nvm/versions/node/v8.9.2/bin/firebase serve --only functions
+[debug] [2018-09-25T18:30:30.809Z] CLI Version:   4.2.1
+[debug] [2018-09-25T18:30:30.810Z] Platform:      linux
+[debug] [2018-09-25T18:30:30.810Z] Node Version:  v8.9.2
+[debug] [2018-09-25T18:30:30.810Z] Time:          Wed Sep 26 2018 00:00:30 GMT+0530 (IST)
+[debug] [2018-09-25T18:30:30.810Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-25T18:30:30.821Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-25T18:30:30.821Z] > authorizing via signed-in user
+[debug] [2018-09-25T18:30:30.823Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/firecast-app-df266  
+ 
+[debug] [2018-09-25T18:30:32.967Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-25T18:30:32.970Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/firecast-app-df266  
+ 
+[debug] [2018-09-25T18:30:43.392Z] ----------------------------------------------------------------------
+[debug] [2018-09-25T18:30:43.394Z] Command:       /home/tanmay/.nvm/versions/node/v8.9.2/bin/node /home/tanmay/.nvm/versions/node/v8.9.2/bin/firebase serve --only functions
+[debug] [2018-09-25T18:30:43.394Z] CLI Version:   4.2.1
+[debug] [2018-09-25T18:30:43.394Z] Platform:      linux
+[debug] [2018-09-25T18:30:43.395Z] Node Version:  v8.9.2
+[debug] [2018-09-25T18:30:43.395Z] Time:          Wed Sep 26 2018 00:00:43 GMT+0530 (IST)
+[debug] [2018-09-25T18:30:43.395Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-25T18:30:43.402Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-25T18:30:43.402Z] > authorizing via signed-in user
+[debug] [2018-09-25T18:30:43.404Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/firecast-app-df266  
+ 
+[debug] [2018-09-25T18:30:49.581Z] ----------------------------------------------------------------------
+[debug] [2018-09-25T18:30:49.583Z] Command:       /home/tanmay/.nvm/versions/node/v8.9.2/bin/node /home/tanmay/.nvm/versions/node/v8.9.2/bin/firebase serve --only functions
+[debug] [2018-09-25T18:30:49.583Z] CLI Version:   4.2.1
+[debug] [2018-09-25T18:30:49.583Z] Platform:      linux
+[debug] [2018-09-25T18:30:49.583Z] Node Version:  v8.9.2
+[debug] [2018-09-25T18:30:49.583Z] Time:          Wed Sep 26 2018 00:00:49 GMT+0530 (IST)
+[debug] [2018-09-25T18:30:49.583Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-25T18:30:49.590Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-25T18:30:49.590Z] > authorizing via signed-in user
+[debug] [2018-09-25T18:30:49.592Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/firecast-app-df266  
+ 
+[debug] [2018-09-25T18:30:50.905Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-25T18:30:50.908Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/firecast-app-df266  
+ 
+[debug] [2018-09-25T18:30:52.692Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/media/tanmay/Tanmay/Projects/firecast'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-09-25T18:30:53.602Z] Fetching environment
+[debug] [2018-09-25T18:30:53.608Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/761148642962:getServerAppConfig  
+ 
+[debug] [2018-09-25T18:30:54.164Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-25T18:30:54.165Z] Starting @google-cloud/functions-emulator
+[debug] [2018-09-25T18:30:55.875Z] Parsing function triggers
+[info] ✔  functions: getBostonAreaWeather: http://localhost:5000/firecast-app-df266/us-central1/getBostonAreaWeather
+[info] ✔  functions: getBostonWeather: http://localhost:5000/firecast-app-df266/us-central1/getBostonWeather
+[info] Shutting down...

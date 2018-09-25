@@ -1,0 +1,28 @@
+[debug] [2018-09-25T18:34:29.059Z] ----------------------------------------------------------------------
+[debug] [2018-09-25T18:34:29.060Z] Command:       /home/tanmay/.nvm/versions/node/v8.9.2/bin/node /home/tanmay/.nvm/versions/node/v8.9.2/bin/firebase serve --only functions
+[debug] [2018-09-25T18:34:29.061Z] CLI Version:   4.2.1
+[debug] [2018-09-25T18:34:29.061Z] Platform:      linux
+[debug] [2018-09-25T18:34:29.061Z] Node Version:  v8.9.2
+[debug] [2018-09-25T18:34:29.061Z] Time:          Wed Sep 26 2018 00:04:29 GMT+0530 (IST)
+[debug] [2018-09-25T18:34:29.061Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-25T18:34:29.068Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-25T18:34:29.068Z] > authorizing via signed-in user
+[debug] [2018-09-25T18:34:29.070Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/firecast-app-df266  
+ 
+[debug] [2018-09-25T18:34:35.402Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-25T18:34:35.406Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/firecast-app-df266  
+ 
+[debug] [2018-09-25T18:34:37.216Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/media/tanmay/Tanmay/Projects/firecast'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-09-25T18:34:37.960Z] Fetching environment
+[debug] [2018-09-25T18:34:37.962Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/761148642962:getServerAppConfig  
+ 
+[debug] [2018-09-25T18:34:38.498Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-25T18:34:38.499Z] Starting @google-cloud/functions-emulator
+[debug] [2018-09-25T18:34:40.569Z] Parsing function triggers
+[info] ✔  functions: getBostonAreaWeather: http://localhost:5000/firecast-app-df266/us-central1/getBostonAreaWeather
+[info] ✔  functions: getBostonWeather: http://localhost:5000/firecast-app-df266/us-central1/getBostonWeather
